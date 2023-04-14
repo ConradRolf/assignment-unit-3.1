@@ -87,6 +87,9 @@ console.log('My food list is now:', foodArray)
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+foodArray[1] = 'salmon sushi'
+console.log('Specified the kind of sushi I enjoy to', foodArray[1])
+console.log('My favorite foods are now:', foodArray)
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
